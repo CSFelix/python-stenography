@@ -141,10 +141,11 @@ def Steganography():
 	"""
 	The Main Function
 	"""
-	menu = input('Image Stenography\n 1. Encode the data\n 2. Decode the data\n 3. Exit\n Your input is: ')
-	userInput = menu
 
 	while True:
+		menu = input('Image Stenography\n 1. Encode the data\n 2. Decode the data\n 3. Exit\n Your input is: ')
+		userInput = menu
+
 		if userInput == '1':
 			print('\nEncoding...')
 			encodeText()
@@ -158,9 +159,6 @@ def Steganography():
 
 		elif userInput == '3': break
 
-		else: 
-			print('\nEnter a valid option!\n')
-			menu = input('Image Stenography\n 1. Encode the data\n 2. Decode the data\n 3. Exit\n Your input is: ')
-			userInput = menu
+		else: print('\nEnter a valid option!\n')
 
 Steganography()
