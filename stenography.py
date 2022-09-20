@@ -140,6 +140,12 @@ def decodeText():
 def Steganography():
 	"""
 	The Main Function
+
+	The use must select one of the three available options:
+
+	1. Encode the data
+	2. Decode the data
+	3. Exit
 	"""
 
 	while True:
