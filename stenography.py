@@ -149,6 +149,7 @@ def Steganography():
 	"""
 
 	while True:
+		
 		menu = input('Image Stenography\n 1. Encode the data\n 2. Decode the data\n 3. Exit\n Your input is: ')
 		userInput = menu
 
